@@ -9,6 +9,8 @@
     background-position: center;
   }
 
+  
+
   .hero_area::before {
     display: none;
   }
@@ -61,6 +63,12 @@
 
   .slider_section .carousel_btn-container {
     display: none;
+  }
+
+  .info_section ul li  {
+    display: flex;
+  padding: 10px;
+  justify-content: center;
   }
 }
 
