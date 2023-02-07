@@ -198,7 +198,31 @@ Prendre rendez-vous                      </a>
         </h2>
       </div>
       <div class="service_container layout_padding2">
-        <div class="service_box">
+
+        <div class="row rsui">
+          <div class="col-lg-3 mb-2">
+              <div class="service-item rounded p-5 mb-4">
+                  <i class="fa fa-3x fa-laptop-code text-primary mb-4"></i>
+                  <h4 class="text-uppercase mb-4">Web <span class="d-block text-body">Design</span></h4>
+                  <p class="m-0"> l'aspect graphique d'un site Internet (illustrations, animations, typographie...).</p>
+              </div>
+          </div>
+          <div class="col-lg-3 mb-2">
+              <div class="service-item rounded p-5 mb-4">
+                  <i class="fa fa-3x fa-code text-primary mb-4"></i>
+                  <h4 class="text-uppercase mb-4">site <span class="d-block text-body">vitrine</span></h4>
+                  <p class="m-0">Le but? D'attirer l'attention et d'éveiller l'intérêt des internautes de passage.</p>
+              </div>
+          </div>
+          <div class="col-lg-3 mb-2">
+              <div class="service-item rounded p-5 mb-4">
+                  <i class="fa fa-3x fa-envelope-open-text text-primary mb-4"></i>
+                  <h4 class="text-uppercase mb-4">Taille <span class="d-block text-body">Adaptée</span></h4>
+                  <p class="m-0">Un site qui s’adapte à toute taille d’écran pour conserver une ergonomie idéale en toute situation</p>
+              </div>
+          </div>
+      </div>
+        <!-- <div class="service_box">
           <div class="img-box">
             <img src="images/s-1.jpg" alt=""/>
           </div>
@@ -225,7 +249,7 @@ Prendre rendez-vous                      </a>
               En deuxième lieu, nous offrons une maintenance de site web pour garantir que votre site reste performant et à jour. Nous sommes là pour vous assister en cas de problèmes techniques et pour effectuer les mises à jour nécessaires pour maintenir votre site en parfait état.
             </p>
           </div>
-        </div>
+        </div> -->
        
       </div>
       
@@ -456,27 +480,28 @@ FACILEMENT JOIGNABLE              </h6>
         Vous avez des questions? Nous sommes là pour vous aider! Contactez-nous pour obtenir des réponses à vos questions et pour savoir comment nous pouvons vous aider à lancer votre projet de site web.      </p>
     </div>
     <div class="container">
-      <form>
+      <form action="https://formsubmit.co/04ef8d713364c8ff19dccb9047ae19e1" method="POST">
+        <input type="text" name="_honey" style="display: none;">
+        <input type="hidden" name="_captcha" value="false">
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputName4">Nom</label>
-            <input type="text" class="form-control" id="inputName4"/>
+            <input type="text" name="name" class="form-control" id="inputName4" required/>
           </div>
           <div class="form-group col-md-6">
             <label for="inputEmail4">Email</label>
-            <input type="email" class="form-control" id="inputEmail4"/>
+            <input type="email" class="form-control" id="inputEmail4" name="email" required/>
           </div>
 
         </div>
         <div class="form-row">
           <div class="form-group col-md-6">
             <label for="inputNumber4">Numéro de téléphone</label>
-            <input type="tel" class="form-control" id="inputNumber4"/>
+            <input type="number" name="number" class="form-control" id="inputNumber4" required/>
           </div>
           <div class="form-group col-md-6">
-            <label for="inputState">Select Service</label>
-            <select id="inputState" class="form-control">
-              <option selected=""></option>
+            <label for="inputState">services</label>
+            <select id="inputState" name="state" class="form-control">
               <option>Créer mon site </option>
             </select>
           </div>
@@ -484,7 +509,7 @@ FACILEMENT JOIGNABLE              </h6>
         </div>
         <div class="form-group">
           <label for="inputMessage">Message</label>
-          <input type="text" class="form-control" id="inputMessage" placeholder=""/>
+          <input type="text" class="form-control" name="message" id="inputMessage" placeholder="message" required/>
         </div>
     </div>
 

@@ -9,6 +9,28 @@ body {
   padding: 75px 0;
 }
 
+.service-item {
+  height: 320px;
+  background: #F4F5F8;
+  transition: .5s;
+}
+.rsui{
+  justify-content: center;
+}
+
+.service-item:hover{
+  background-color: gray;
+  color: white;
+}
+.p-5:hover {
+  color: white;
+}
+
+.p-5 {
+  padding: 1.5rem !important;
+  color: #0c0c0c;
+}
+
 .layout_padding2 {
   padding: 45px 0;
 }
