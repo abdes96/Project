@@ -28,6 +28,7 @@
   .slider_img-box img {
     z-index: 1;
     position: relative;
+    margin-left: 0;
   }
 
   .slider_img-box {
@@ -46,6 +47,12 @@
     top: 0;
     transform: scale(1.7);
   }
+
+  .carousel-item{
+    width: 100%;
+  }
+
+
 
 
   .hero_area {

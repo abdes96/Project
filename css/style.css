@@ -310,8 +310,14 @@ a:focus {
   margin: 0 auto;
 }
 
+
 .slider_img-box img {
-  width: 100%;
+width: 100%;
+margin-left: 200px;
+}
+
+.carousel-item{
+  width: 80%;
 }
 
 .welcome_section {
@@ -435,6 +441,10 @@ a:focus {
   width: 50%;
 }
 
+.navbar-brand img{
+width: 50%;
+}
+
 .problem_section .detail-box {
   margin-top: 45px;
 }
@@ -482,6 +492,31 @@ a:focus {
   width: 64%;
 }
 
+.lineUp{
+position: relative;
+overflow: hidden;
+border-right: 2px solid hsl(0, 0%, 80%);
+white-space: nowrap;
+animation: typewriter 3s steps(44) 1s 1 normal both,
+  blinkTextCursor 500ms infinite;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 710px;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
 .why_section {
   color: #f9fcfb;
   background: -webkit-gradient(linear, left top, right top, from(#1b3374), to(#8f4fe8));
@@ -491,6 +526,7 @@ a:focus {
 .why_section .custom_heading-container h2 {
   border-color: #f9fcfb;
 }
+
 
 .why_section p {
   text-align: center;
@@ -686,7 +722,8 @@ a:focus {
 }
 
 .info_section img {
-  width: 100%;
+  width: 15%;
+  margin-bottom: 20px ;
 }
 
 .info_section ul {
