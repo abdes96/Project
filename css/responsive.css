@@ -2,7 +2,10 @@
   .footer_bg {
     margin-top: 0;
   }
+
 }
+
+
 
 @media (max-width: 992px) {
   .custom_nav-container .nav_search-btn {
@@ -80,6 +83,14 @@
 }
 
 @media (max-width: 768px) {
+  .containerfooter{
+    display: flex;
+    justify-content: center;
+  }
+
+  .containerfooter img{
+    width: 100px;
+  }
 
   #arrow-up {
     display: block;
